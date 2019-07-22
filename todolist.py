@@ -10,6 +10,7 @@ delete=Button(window,text="DELETE",font="Ariel 20",commond= lambda content=conte
 
 content.grid(row=0,column=0,columnspan=2,padx=5,pady=10)
 e.grid(row=1,column=0,columnspan=2,padx=5,pady=10)
+add.grid(row=2,column=0,padx=5,pady=20)
 
 
 window.mainloop()
